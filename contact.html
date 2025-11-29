@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Nexor Labs</title>
+  <!----- Favicon ----->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+  <!----- Fonts ----->
+  <link rel="stylesheet" href="css/contact.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="logo">Nexor Labs</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact-section">
+    <div class="contact-container">
+      <h2>Contact Nexor Labs</h2>
+      <p class="subtitle">For the Cause, For the Code, For the Vanguard.</p>
+
+      <form action="contactForm" action="https://formspree.io/f/mkgpdrqo" method="POST">
+        <div class="form-group">
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <textarea id="message" name="message" rows="5" placeholder="Your Message..." required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+        <p id="successMessage" class="success">✅ Message sent successfully!</p>
+      </form>
+
+      <div class="social-links">
+        <h3>Connect with Us</h3>
+        <a href="#">Twitter</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Nexor Labs | Neural Vanguard Initiative</p>
+  </footer>
+
+  <script src="js/contact.js"></script>
+</body>
+</html>
